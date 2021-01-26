@@ -1,0 +1,45 @@
+- name: Dokumentation för partnerutvecklare
+  href: index.yml
+  items:
+    - name: Översikter och scenarier
+      href: develop/index.md
+      items:
+        - name: Kom igång
+          href: develop/get-started.md
+          items:
+            - name: Autentisering för partner-API
+              href: develop/api-authentication.md
+        - name: Scenarier
+          href: develop/scenarios.md
+          items:
+            - name: Referenser
+              href: develop/referrals.md
+              items:
+                - name: Hämta listan över leads och affärsmöjligheter
+                  href: develop/get-a-list-of-referrals.md
+                - name: Hämta en lead eller en affärsmöjlighet utifrån ID
+                  href: develop/get-a-referral-by-id.md
+                - name: Uppdatera en lead eller en affärsmöjlighet
+                  href: develop/patch-a-referral.md
+                - name: Skapa en ny affärsmöjlighet
+                  href: develop/create-a-referral.md
+                - name: Hänvisningsresurser
+                  href: develop/referral-resources.md
+            - name: Prissättning
+              href: develop/pricing.md
+              items:
+                - name: Hämta ett prisdokument
+                  href: develop/get-a-price-sheet.md
+                - name: Hämta växelkurser
+                  href: develop/get-foreign-exchange-rates.md
+    - name: Referens för REST-API
+      href: develop/rest-api-reference.md
+      items:
+        - name: 'REST-slutpunkts-URL:er'
+          href: develop/rest-urls.md
+        - name: REST-huvuden
+          href: develop/headers.md
+        - name: REST-felkoder
+          href: develop/error-codes.md
+        - name: REST-resurser
+          href: develop/rest-resources.md
