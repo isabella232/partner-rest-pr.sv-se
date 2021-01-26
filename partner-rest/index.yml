@@ -1,0 +1,37 @@
+### YamlMime:Landing
+title: REST-API för Microsoft-partner
+summary: REST-API för Microsoft-partner är efterföljaren till Microsoft Partner Center API. Med detta API kan du programmatiskt få åtkomst till funktionerna i Partnercenter.
+metadata:
+  title: Dokumentation för Partnercenter-utvecklare
+  description: REST-API för Microsoft-partner är efterföljaren till Microsoft Partner Center API. Med detta API kan du programmatiskt få åtkomst till funktionerna i Partnercenter.
+  ms.service: partner-dashboard
+  ms.subservice: partnercenter-sdk
+  ms.topic: landing-page
+  author: jasonwhowell
+  ms.author: jasonh
+  ms.date: 04/09/2020
+  ms.openlocfilehash: 163c778485f25318e1263a2064ded44fe617f8af
+  ms.sourcegitcommit: 3c165938f544ff226cbe11ca21ed5aa00448d9b4
+  ms.translationtype: MT
+  ms.contentlocale: sv-SE
+  ms.lasthandoff: 04/23/2020
+  ms.locfileid: "97766512"
+landingContent:
+- title: API-dokumentation och resurser för Microsoft-partner
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Kom igång med REST-API:et för partner
+      url: develop/get-started.md
+    - text: Scenarier som stöds av REST-API:et för partner
+      url: develop/scenarios.md
+  - linkListType: reference
+    links:
+    - text: REST-API för partner
+      url: develop/rest-api-reference.md
+  - linkListType: how-to-guide
+    links:
+    - text: Programmatisk hantering av hänvisningar
+      url: develop/referrals.md
+    - text: Programmatisk hämtning av CSP-prissättning
+      url: develop/pricing.md
