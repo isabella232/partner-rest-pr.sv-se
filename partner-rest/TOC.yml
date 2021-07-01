@@ -30,6 +30,8 @@
               items:
                 - name: Hämta ett prisdokument
                   href: develop/get-a-price-sheet.md
+                - name: Hämta en erbjudandematris
+                  href: develop/get-an-offer-matrix.md
                 - name: Hämta växelkurser
                   href: develop/get-foreign-exchange-rates.md
     - name: Referens för REST-API
